@@ -12,6 +12,7 @@ namespace LibreHardwareMonitor.Wmi
     [InstrumentationClass(InstrumentationType.Instance)]
     public class Sensor : IWmiObject
     {
+        //
         private readonly ISensor _sensor;
 
         #region WMI Exposed
